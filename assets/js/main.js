@@ -85,7 +85,7 @@
 		var w = 350;
 		var _w = $(window).width();
 		$(function(){
-			if(_w <= 480){
+			if(_w <= 560){
 				var ifrs = document.getElementsByTagName('iframe');
 				for(var i=0;i<ifrs.length;i++){
 					var ifr = ifrs[i];
