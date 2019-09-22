@@ -48,7 +48,7 @@ footer, header, hgroup, menu, nav, section {
 
 
 	/* RWD FB影片 */
-	@media (max-width: 480px) {
+	@media (max-width: 560px) {
 	    iframe[src *= "facebook"]{
 	        max-width:360px;
 	        height: 197px;
