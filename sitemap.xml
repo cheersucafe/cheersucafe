@@ -3,27 +3,44 @@
 
   <url>
     <loc>https://www.cheersu.com.tw/</loc>
-    <lastmod>2019-04-10</lastmod>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://www.cheersu.com.tw/index.html</loc>
-    <lastmod>2019-04-10</lastmod>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+
   <url>
     <loc>https://www.cheersu.com.tw/menu.html</loc>
-    <lastmod>2019-04-10</lastmod>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+
   <url>
-   <loc>https://www.cheersu.com.tw/book.html</loc>
-   <lastmod>2019-04-10</lastmod>
+    <loc>https://www.cheersu.com.tw/book.html</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.cheersu.com.tw/contact.html</loc>
-    <lastmod>2019-04-10</lastmod>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.cheersu.com.tw/photo.html</loc>
-    <lastmod>2019-04-10</lastmod>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
