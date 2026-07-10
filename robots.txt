@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-https://www.cheersu.com.tw/sitemap.xml
+Sitemap: https://www.cheersu.com.tw/sitemap.xml
