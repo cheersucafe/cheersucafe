@@ -2549,7 +2549,7 @@ max-width: 100%;
 		input[type="button"].ig_blue,
 		button.ig_blue,
 		.button.ig_blue {
-			background-color: #32B8DF;
+			background-color: #C9A24A;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2559,7 +2559,7 @@ max-width: 100%;
 			input[type="button"].ig_blue:hover,
 			button.ig_blue:hover,
 			.button.ig_blue:hover {
-				background-color: #34CDF6 !important;
+				background-color: #D7B25C !important;
 			}
 
 			input[type="submit"].ig_blue:active,
@@ -2567,7 +2567,7 @@ max-width: 100%;
 			input[type="button"].ig_blue:active,
 			button.ig_blue:active,
 			.button.ig_blue:active {
-				background-color: #30A3C8 !important;
+				background-color: #B38B35 !important;
 			}
 
 		input[type="submit"].ig_pink,
@@ -2575,7 +2575,7 @@ max-width: 100%;
 		input[type="button"].ig_pink,
 		button.ig_pink,
 		.button.ig_pink {
-			background-color: #EA60A7;
+			background-color: #C9A24A;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2585,7 +2585,7 @@ max-width: 100%;
 			input[type="button"].ig_pink:hover,
 			button.ig_pink:hover,
 			.button.ig_pink:hover {
-				background-color: #BC75BE !important;
+				background-color: #D7B25C !important;
 			}
 
 			input[type="submit"].ig_pink:active,
@@ -2593,7 +2593,7 @@ max-width: 100%;
 			input[type="button"].ig_pink:active,
 			button.ig_pink:active,
 			.button.ig_pink:active {
-				background-color: #E84B90 !important;
+				background-color: #B38B35 !important;
 			}
 
 		input[type="submit"].ig_green,
