@@ -2519,30 +2519,30 @@ max-width: 100%;
 
 		/* 自訂IG顏色Button */
         input[type="submit"].ig_yellow,
-        input[type="reset"].ig_yellow,
-        input[type="button"].ig_yellow,
-        button.ig_yellow,
-        .button.ig_yellow {
-            background-color: #fdb517;
-            box-shadow: none !important;
-            color: #ffffff !important;
-        }
+input[type="reset"].ig_yellow,
+input[type="button"].ig_yellow,
+button.ig_yellow,
+.button.ig_yellow {
+    background-color: #D96C1F;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
 
-            input[type="submit"].ig_yellow:hover,
-            input[type="reset"].ig_yellow:hover,
-            input[type="button"].ig_yellow:hover,
-            button.ig_yellow:hover,
-            .button.ig_yellow:hover {
-                background-color: #ffcb2e !important;
-            }
+input[type="submit"].ig_yellow:hover,
+input[type="reset"].ig_yellow:hover,
+input[type="button"].ig_yellow:hover,
+button.ig_yellow:hover,
+.button.ig_yellow:hover {
+    background-color: #E57B2F !important;
+}
 
-            input[type="submit"].ig_yellow:active,
-            input[type="reset"].ig_yellow:active,
-            input[type="button"].ig_yellow:active,
-            button.ig_yellow:active,
-            .button.ig_yellow:active {
-                background-color: #fba000 !important;
-            }
+input[type="submit"].ig_yellow:active,
+input[type="reset"].ig_yellow:active,
+input[type="button"].ig_yellow:active,
+button.ig_yellow:active,
+.button.ig_yellow:active {
+    background-color: #B85716 !important;
+}
 
 		input[type="submit"].ig_blue,
 		input[type="reset"].ig_blue,
