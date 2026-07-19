@@ -4327,9 +4327,21 @@ button.ig_yellow:active,
         margin-bottom: 1rem;
     }
 
+    #banner .hero-primary-action,
+    #banner .hero-secondary-actions {
+        width: min(82vw, 320px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #banner .hero-primary-action li,
+    #banner .hero-primary-action .button {
+        width: 100%;
+        min-width: 0;
+    }
+
     #banner .hero-secondary-actions {
         grid-template-columns: 1fr;
-        width: min(100%, 360px);
     }
 
     #banner .hero-secondary-actions li:last-child {
