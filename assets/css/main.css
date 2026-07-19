@@ -4229,7 +4229,7 @@ button.ig_yellow:active,
 #banner .hero-secondary-actions {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.55rem;
+    gap: 0.4rem;
     width: min(100%, 520px);
     margin: 0 auto;
     padding: 0;
@@ -4329,7 +4329,7 @@ button.ig_yellow:active,
 
     #banner .hero-primary-action,
     #banner .hero-secondary-actions {
-        width: min(68vw, 260px);
+        width: min(64vw, 240px);
         margin-left: auto;
         margin-right: auto;
     }
@@ -4456,7 +4456,7 @@ button.ig_yellow:active,
     }
 
     #banner .button {
-        height: 3.45em;
-        line-height: 3.45em;
+        height: 3.1em;
+        line-height: 3.1em;
     }
 }
