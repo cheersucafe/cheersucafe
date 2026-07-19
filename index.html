@@ -370,6 +370,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 }
 
+
+/* 回頂端浮動按鈕：避開手機底部電話／導航工具列 */
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    z-index: 10001;
+}
+
+@media screen and (max-width: 980px) {
+    #gotop {
+        right: 14px;
+        bottom: calc(82px + env(safe-area-inset-bottom));
+        padding: 8px 12px;
+        font-size: 16px;
+        line-height: 1.3;
+        border-radius: 999px;
+        background: rgba(55, 55, 55, 0.78);
+        color: #ffffff;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22);
+    }
+}
+
 </style>
 
 </head>
