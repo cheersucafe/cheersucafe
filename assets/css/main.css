@@ -4257,3 +4257,25 @@ z-index:10001!important;
     padding:.35rem 0!important;
 }
 }
+@media (max-width:980px){
+
+#banner .hero-title{
+    line-height:1.15!important;
+    text-align:center!important;
+}
+
+#banner .hero-brand{
+    display:block;
+    font-size:2.15rem!important;
+    font-weight:700;
+}
+
+#banner .hero-subtitle{
+    display:block;
+    font-size:1.55rem!important;
+    font-weight:700;
+    white-space:nowrap!important;
+    margin-top:.15rem;
+}
+
+}
