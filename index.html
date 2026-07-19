@@ -1,10 +1,10 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!--
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="zh-Hant-TW">
 <head>
     <title>台北必吃素食餐廳【草蔬宴│義式蔬食│素食】信義區蔬食 松山文創美食 市府捷運站</title>
     <meta name="description" content="台北市不一樣素食餐廳，空間大環境舒適，也是IG熱門打卡的素食餐廳！
@@ -21,7 +21,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MN8NLMVQ');</script>
 <!-- End Google Tag Manager -->
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <html lang="zh-Hant-TW">
 	    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script type="application/ld+json">
   {
@@ -116,6 +115,263 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+
+<style>
+/* 首頁 Hero：手機優先 */
+#banner .hero-title {
+    font-size: 2.1rem;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
+
+#banner .hero-intro {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    max-width: 760px;
+    margin: 0 auto 1.4rem;
+}
+
+#banner .hero-primary-action {
+    margin-bottom: 1.25rem;
+}
+
+#banner .hero-primary-action .button {
+    min-width: 220px;
+    min-height: 50px;
+    font-size: 1.125rem;
+}
+
+#banner .hero-secondary-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: min(100%, 360px);
+    margin: 0 auto;
+}
+
+#banner .hero-secondary-actions li {
+    width: 100%;
+    padding: 0;
+}
+
+#banner .hero-secondary-actions .button {
+    width: 100%;
+    min-height: 46px;
+    font-size: 1.05rem;
+}
+
+@media screen and (max-width: 480px) {
+    #banner .inner {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #banner .hero-title {
+        font-size: 2rem;
+    }
+
+    #banner .hero-intro {
+        font-size: 1.05rem;
+        line-height: 1.7;
+    }
+}
+
+/* 手機固定底部工具列：電話訂位＋Google 導航 */
+.mobile-bottom-actions {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        padding-bottom: 72px;
+    }
+
+    .mobile-bottom-actions {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10000;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1px;
+        padding: 8px max(10px, env(safe-area-inset-right))
+                 calc(8px + env(safe-area-inset-bottom))
+                 max(10px, env(safe-area-inset-left));
+        background: rgba(255, 255, 255, 0.96);
+        box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.16);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .mobile-bottom-actions a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+    }
+
+    .mobile-bottom-actions .phone-action {
+        background: #A9987C;
+        color: #FFFFFF;
+    }
+
+    .mobile-bottom-actions .map-action {
+        background: #D8D9CD;
+        color: #4A4A46;
+        border: 1px solid rgba(48, 48, 48, 0.22);
+    }
+
+    .mobile-bottom-actions a:active {
+        transform: translateY(1px);
+    }
+}
+
+
+/* 首頁第一屏標題與介紹置中 */
+#banner .inner {
+    text-align: center;
+}
+
+#banner .hero-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 首頁各主要區塊統一置中 */
+#one .inner,
+#two .inner,
+#three .inner,
+#four .inner,
+#five .inner,
+#six .inner,
+#one .major,
+#two .major,
+#three .major,
+#four .major,
+#five .major,
+#six .major {
+    text-align: center;
+}
+
+#one .major h2,
+#two .major h2,
+#three .major h2,
+#four .major h2,
+#five .major h2,
+#six .major h2,
+#one .major > p,
+#two .major > p,
+#three .major > p,
+#four .major > p,
+#five .major > p,
+#six .major > p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#one img,
+#two img,
+#three img,
+#four img,
+#five img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#four iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#six section,
+#six .responsive-16by9 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 980px) {
+    #one .major,
+    #two .major,
+    #three .major,
+    #four .major,
+    #five .major,
+    #six .major {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+
+/* 手機底部固定按鈕－最終確認配色 */
+.mobile-bottom-bar .mobile-call,
+.mobile-bottom-bar a:first-child {
+    background: #B8A486 !important;
+    color: #FFFFFF !important;
+    border-color: #B8A486 !important;
+}
+
+.mobile-bottom-bar .mobile-map,
+.mobile-bottom-bar a:last-child {
+    background: #DDE0D2 !important;
+    color: #4A4A46 !important;
+    border-color: #C8CCBA !important;
+}
+
+.mobile-bottom-bar .mobile-call:hover,
+.mobile-bottom-bar .mobile-call:focus,
+.mobile-bottom-bar a:first-child:hover,
+.mobile-bottom-bar a:first-child:focus {
+    background: #A99578 !important;
+}
+
+.mobile-bottom-bar .mobile-map:hover,
+.mobile-bottom-bar .mobile-map:focus,
+.mobile-bottom-bar a:last-child:hover,
+.mobile-bottom-bar a:last-child:focus {
+    background: #D1D6C3 !important;
+}
+
+
+/* 手機底部固定按鈕－最終確認配色 */
+@media screen and (max-width: 980px) {
+    .mobile-bottom-actions .phone-action {
+        background-color: #A9987C !important;
+        color: #FFFFFF !important;
+        border: 1px solid #A9987C !important;
+    }
+
+    .mobile-bottom-actions .map-action {
+        background-color: #D8D9CD !important;
+        color: #4A4A46 !important;
+        border: 1px solid #BEC2AE !important;
+    }
+
+    .mobile-bottom-actions .phone-action:hover,
+    .mobile-bottom-actions .phone-action:focus {
+        background-color: #9E8D72 !important;
+    }
+
+    .mobile-bottom-actions .map-action:hover,
+    .mobile-bottom-actions .map-action:focus {
+        background-color: #CED0C2 !important;
+    }
+}
+
+</style>
+
 </head>
 	<body class="landing is-preload">
 
@@ -134,7 +390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<nav id="nav"> <!-- 上方導覽列 -->
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/CheerSuCafe/" target="_blank" class="icon fa-facebook font_blue"><span class="label"><Facebook</span></a>
+                                    <a href="https://www.facebook.com/CheerSuCafe/" target="_blank" class="icon fa-facebook font_blue"><span class="label">Facebook</span></a>
                                 </li>
                                 <li>
                                     <a href="https://www.instagram.com/cheersu_cafe/" target="_blank" class="icon fa-instagram font_pink"><span class="label">Instagram</span></a>
@@ -166,35 +422,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<!-- Banner -->
 					<section id="banner">
                         <div class="inner">
-                            <h2>草蔬宴，義式蔬食餐廳</h2> <!-- 一開始的標題 -->
-                            <p>
-                                
-草蔬宴位於台北市信義區，鄰近台北大巨蛋、松山文創園區及捷運市政府站，是一間提供全素、蛋奶素與義式蔬食料理的餐廳。<br>
-提供義大利麵、燉飯、披薩、開胃菜、甜點與飲品。<br>
-適合家庭聚餐、朋友聚餐、情侶約會及公司聚餐。
-</p>
-                          
-                            <p>
-                            地址： <a href="https://goo.gl/maps/rJqaTHcdEK32" target="_blank"><b>台北市信義區忠孝東路四段553巷18號(市政府捷運站一號出口)</b></a>
-                            </p>
-                            <p>
-                                電話：<a href="tel:02-3765-1616"><b>02-3765-1616</b></a>
-                                <p></p>
-                                <a href="tel:02-3765-1616" class="button ig_yellow">電話訂位</a>
+                            <h1 class="hero-title">草蔬宴｜義式蔬食餐廳</h1>
+                            <p class="hero-intro">
+                                草蔬宴位於台北市信義區，鄰近台北大巨蛋、松山文創園區（松菸）與市政府捷運站，提供全素與蛋奶素義式料理，擁有舒適的用餐空間，適合聚餐與包場。
                             </p>
 
+                            <ul class="actions special hero-primary-action">
+                                <li><a href="#one" class="button ig_yellow">查看菜單</a></li>
+                            </ul>
 
-                            <ul class="actions special">
-                                <li><a href="#one" class="button ig_blue">查看菜單</a></li>
+                            <ul class="actions special hero-secondary-actions">
                                 <li><a href="#two" class="button ig_blue">用餐環境</a></li>
                                 <li><a href="#three" class="button ig_pink">包場服務</a></li>
                                 <li><a href="#four" class="button ig_blue">媒體報導</a></li>
                                 <li><a href="#five" class="button ig_blue">食記分享</a></li>
                                 <li><a href="#six" class="button ig_pink">聯絡我們</a></li>
-
-                            </ul>
-                            <ul class="actions special">
-
                             </ul>
                         </div>
 						<a href="#one" class="more scrolly">菜單介紹</a> <!-- 觀看更多 -->
@@ -302,18 +544,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <header class="major">
                             <h2>包場服務</h2>
                             <p>全素、蛋奶素</p>
-                            <p>草蔬宴提供您優質的環境給您舉辦活動，不管是公司會議、音樂會等，歡迎來電詢問</p>
+                            <p>草蔬宴提供多元包場空間，適合公司聚餐、家庭聚會、生日聚餐、同學會及各式聚餐活動。全店約可容納90人，另提供可容納30–40人的獨立包場空間，並備有投影設備、麥克風及音響，可依活動需求彈性安排。</p>
                             <h3>包場活動</h3>
-                            <p>草蔬宴提供空間場地租借</p>
-                            <h3>挑選區域</h3>
-                            <p>
-                                整場可容納40人，半埸可容納20人
-                            </p>
+                            <p>提供舒適的蔬食聚餐與活動空間。</p>
                             <h3>菜單設計</h3>
-                            <p>本店可以依照Menu內容與您討論專屬菜單，提供給來賓優良的食物品質</p>
+                            <p>可依照菜單內容討論專屬餐點安排，提供來賓良好的用餐品質。</p>
                             <h3>設備提供</h3>
-                            <p>本店提供投影機及音響設備</p>
-                            <h3>收費標準</h3>
+                            <p>提供投影設備、麥克風及音響。</p>
                             <p></p>
                             <a href="tel:02-3765-1616" class="button ig_yellow">歡迎來電洽詢</a>
                             <p></p>
@@ -387,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <img src="images/部落客介紹/草蔬宴 FB介紹03.jpg" alt="FB使用者介紹草蔬宴3" border="0">
                             </a><p></p>
                             <a href="images/部落客介紹/草蔬宴 FB介紹04.jpg" title="FB使用者介紹草蔬宴4" target=_blank>
-                                <img src="images/部落客介紹/草蔬宴 FB介紹04.jpg" alt="FB使用者介紹草蔬宴4 border="0">
+                                <img src="images/部落客介紹/草蔬宴 FB介紹04.jpg" alt="FB使用者介紹草蔬宴4" border="0">
                             </a>
                             <p></p>
                             <a href="images/部落客介紹/草蔬宴 IG介紹01.jpg" title="IG使用者介紹草蔬宴1" target=_blank>
@@ -424,31 +661,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <p><b>星期一至星期五</b>&nbsp;11:30~15:00，17:00~21:00</p>
                                     <p><b>星期六、星期日</b>&nbsp;11:30~15:00，17:00~21:00</p>
                                     <p>最後供餐時間為結束前一小時</p>
-
-                                    <div class="responsive-16by9">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.3672583063749!
-						     2d121.56219620042879!3d25.043082143502446!2m3!1f0!2f0!3f0!3m2!1i1024!2i76
-						     8!4f13.1!3m3!1m2!1s0x3442abbed68f455f%3A0xb30ccf7f9ae57984!2zMTEw5Y-w5YyX
-						     5biC5L-h576p5Y2A5b-g5a2d5p2x6Lev5Zub5q61NTUz5be3MTjomZ8!5e0!3m2!1szh-TW!2
-						     stw!4v1554827051150!5m2!1szh-TW!2stw" width="600" height="450" frameborde
-						r="0" style="border:0" allowfullscreen></iframe>
-                                    </div>
                                 </section>
                             </header>
 						</div>
 					</section>
-
-					<footer id="footer">
-                        <ul class="icons">
-                            <li><a href="https://www.facebook.com/CheerSuCafe/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                            <li><a href="https://www.instagram.com/cheersu_cafe/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                            <li><a href="mailto:cheersucafe@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                    <footer id="footer">
+                        <ul class="copyright">
+                            <li>&copy; 2026 草蔬宴義式蔬食餐廳</li>
+                            <li>All Rights Reserved.</li>
                         </ul>
-						<ul class="copyright">
-							<li>&copy; 草蔬宴 CheerSu Cafe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+                    </footer>
 			</div>
+
+
+        <!-- 手機固定底部工具列 -->
+        <nav class="mobile-bottom-actions" aria-label="快速聯絡">
+            <a class="phone-action" href="tel:02-3765-1616" aria-label="電話訂位 02-3765-1616">電話訂位</a>
+            <a class="map-action"
+               href="https://www.google.com/maps/dir/?api=1&destination=%E8%8D%89%E8%94%AC%E5%AE%B4%E7%BE%A9%E5%BC%8F%E8%94%AC%E9%A3%9F%E9%A4%90%E5%BB%B3"
+               target="_blank"
+               rel="noopener"
+               aria-label="開啟 Google 地圖導航">Google 導航</a>
+        </nav>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
